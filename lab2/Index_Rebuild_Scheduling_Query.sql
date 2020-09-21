@@ -4,7 +4,7 @@ use msdb;
 EXEC msdb.dbo.sp_add_job  
    @job_name = N'Rebuild_Index_Job',   
    @enabled = 1,   
-   @description = N'Procedure execution every week' ; 
+   @description = N'Procedure execution every month' ; 
 
  EXEC msdb.dbo.sp_add_jobstep  
     @job_name = N'Rebuild_Index_Job',   
@@ -14,7 +14,8 @@ EXEC msdb.dbo.sp_add_job
 
  EXEC msdb.dbo.sp_add_schedule  
     @schedule_name = N'Rebuild_Index_Schedule',   
-    @freq_type = 1,  -- execute once
+    @freq_type = 32,  -- execute every month
+    @freq_interval = 1, -- every sunday
     @freq_recurrence_factor = 1,
     @active_start_time = '000000' ;   -- start time 00:00:00
 
