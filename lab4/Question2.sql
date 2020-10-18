@@ -1,0 +1,1 @@
+SELECT Disciplina, Nr_ore_plan_disciplina FROM dbo.discipline ORDER BY Nr_ore_plan_disciplina DESC; 
