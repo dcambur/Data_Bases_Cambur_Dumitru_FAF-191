@@ -1,0 +1,26 @@
+2)DDL - Data Definition Language (Create, Alter, Drop, Rename, Truncate, Comment)
+  DQL - Data Query Language (Select)
+  DML - Data Manipulation Language (Insert, Update, Delete, Merge, Call, Explain PLan, Lock Table)
+  DCL - Data Control Language (Grant, Revoke)
+  TCL - Transaction Control Language ( Commit, Rollback, Savepoint , Set Transaction)
+3) 
+ Arithmetic, Logical, Assignment, Scope Resolution, Set, Unary, Bitwise, Comparison,
+Compound, String Concantenation. 
+4) Select ___ From ___?   
+5) Aggregate - APPROX_COUNT_DISTINCT, AVG, CHECKSUM_AGG, COUNT, COUNT_BIG, 
+GROUPING, GROUPING_ID, MAX, MIN, SUM
+   Analytic - FIRST_VALUE, LAG, LAST_VALUE, LEAD, PERCENT_RANK
+   JSON - ISJSON, JSON_VALUE, JSON_QUERY, JSON_MODIFY
+   Date n Time - CURRENT_TIMESTAMP, CURRENT_TIMEZONE, DATEDIFF etc
+   etc... 
+6) Inner Join - only similar elements
+   Outer Join - Distinct Elements
+   Full Outer Join - All Elements
+   Left Join - Left table + common elements
+   Right Join - Right table + common elements
+   Cross Join - all subsets of two tables.
+   Natural Join - same columns output will be shown only once
+   EQUI Join - join against equality
+   Self Join - joins with itself. 
+7) Correlated Subqueries  - query that executes one time per row. Uses values outside of subquery inside it
+9)TOP, LIMIT.  
